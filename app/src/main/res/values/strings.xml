@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HolaMundo</string>
+    <string name="message">Hola Mundo!! :D</string>
+    <string name="second_message">Adios mundo joeeee</string>
 </resources>

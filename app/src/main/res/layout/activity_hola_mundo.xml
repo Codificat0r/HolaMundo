@@ -6,10 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.holamundo.HolaMundoActivity">
 
+    <!--Le decimos que coja el texto desde el xml de strings y le asignamos a -->
+    <!-- este TextView un ID para poder copiarlo desde java (crear uno con sus mismo atributos) -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¡Hola Mundo :D !"
+        android:text="@string/message"
+        android:id="@+id/txvMessage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
